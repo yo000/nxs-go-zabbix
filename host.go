@@ -184,6 +184,7 @@ type HostGetParams struct {
 	MaintenanceIDs []int `json:"maintenanceids,omitempty"`
 	MonitoredHosts bool  `json:"monitored_hosts,omitempty"`
 	ProxyHosts     bool  `json:"proxy_hosts,omitempty"`
+	ProxyGroupIDs  []int `json:"proxy_groupids,omitempty"`
 	ProxyIDs       []int `json:"proxyids,omitempty"`
 	TemplatedHosts bool  `json:"templated_hosts,omitempty"`
 	TemplateIDs    []int `json:"templateids,omitempty"`
