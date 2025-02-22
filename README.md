@@ -1,5 +1,6 @@
 # yo000 Fork
 An update to v7 API, where authentication is done via Authorization header.
+Add item support
 
 # nxs-go-zabbix
 
